@@ -28,7 +28,7 @@ function calc(val){
             Second.innerHTML = '';First.innerHTML = ''; 
             break;
 
-        case 'CE':
+        case '<-':
             if(Second.innerHTML == '0'){
                 First.innerHTML = '';
             }
